@@ -136,7 +136,7 @@ for (i in Range_start:Range_end){
 
 
 				# do ttestBF
-				BF <- ttestBF(x=AllImg[i,j,k,1:filecount],y=AllImg2[i,j,k,1:filecount],
+				BF <- ttestBF(x=AllImg[i,j,k,1:filecount],y=AllImg2[i,j,k,1:filecount2],
 				              rscale=scale_current, nullInterval=c(0,Inf))
 				# get bf value
 				bf <- as.data.frame(BF)
